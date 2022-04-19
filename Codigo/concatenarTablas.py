@@ -10,7 +10,7 @@ import numpy as np
 #axis = 0
 final = pd.read_excel("./LETRAS/A.xlsx")
 
-for valorLetra in range(66,69):
+for valorLetra in range(66,90):
     letra = chr(valorLetra)
     tabla = pd.read_excel('./LETRAS/' + letra +".xlsx")
     final = pd.concat([final,tabla],axis=0)
