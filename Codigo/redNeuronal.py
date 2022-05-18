@@ -35,7 +35,7 @@ Y = np.array(Y)
 X_train, X_test, y_train, y_test = train_test_split(X, Y, stratify=Y,random_state=1,train_size=0.75)
 
 
-clasificador = MLPClassifier(random_state=1, max_iter=110000, hidden_layer_sizes=(10000)).fit(X_train, y_train)
+clasificador = MLPClassifier(random_state=1, max_iter=111000, hidden_layer_sizes=(15090)).fit(X_train, y_train)
 print("Se ha acabado de entrenar")
 resultado = clasificador.predict(X_test[:len(X_test)])
 print(resultado)
