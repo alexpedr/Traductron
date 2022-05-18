@@ -18,7 +18,7 @@ from sklearn.metrics import r2_score
 
 import pickle
 
-dataframeFinal = pd.read_excel("./LETRAS/final.xlsx",header=0)
+dataframeFinal = pd.read_excel("./NUEVODATASET/final.xlsx",header=0)
 del dataframeFinal["Unnamed: 0"]
 del dataframeFinal["Unnamed: 0.1"]
 
