@@ -77,8 +77,17 @@ Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 
 ![LENGUAJE SIGNOS FINAL](https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg)
 
-## Modo de empleo <a name="id3"></a>
-Como se ejecuta el codigo
+## Modo de empleo <a name="id3"></a
+En el caso de ejecutarlo en ordenador: 
+1. Clonar  repositorio
+2. Instalar librerias necesarias
+3. Ejecutar los archivos en el siguiente orden
+  3.1  Ejecutamos archivo "pythonPrueba2.py"
+  3.2 Ejecutamos el archivo "concatenarTablas.py"
+  3.3 Ejecutamos el archivo  "redNeuronal.py"
+  3.4 Ejecutamos el archivo  "altavoz.py"
+  3.5 Ejecutamos el archivo "intentoTraductorFinal.py"
+Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
 
 ## Planificación de rutas <a name="id4"></a>
 como esta organozado el codigo
