@@ -45,7 +45,7 @@ Buscamos que este colectivo gane independencia y que no tenga que disponer de un
 3. Clasificador 
 4. Find Person
 
-
+## Librerías <a name="id10"></a>
 
 ## Documentación <a name="id2"></a>
 Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje de Signos Español.
