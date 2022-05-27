@@ -47,6 +47,18 @@ Buscamos que este colectivo gane independencia y que no tenga que disponer de un
 
 ## Librerías <a name="id10"></a>
 
+- numpy
+- pandas
+- gTTs
+- playSound
+- cv2
+- mediapipe
+- pickle
+- sklearn
+- math
+- copy
+- time
+
 ## Documentación <a name="id2"></a>
 Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje de Signos Español.
 
