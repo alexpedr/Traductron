@@ -72,7 +72,7 @@ Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje 
 Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 
 1. Hacer las letras sin movimiento, ya que no pudimos procesarlo.
-2. Eliminamos las letras no necesárias, como: 'LL' y 'CH'.
+2. Eliminamos las letras no necesárias, como: 'LL', 'RR', 'Ñ' y 'CH'.
 3. Modificamos los signos de letras las letras que se confundian con otras.
 4. Así ha quedado el abecedario que traduce Traductron.
 
