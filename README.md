@@ -40,11 +40,6 @@ Buscamos que este colectivo gane independencia y que no tenga que disponer de un
 ## Arquitectura Sofware<a name="id10"></a>
 ![image](https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png)
 
-1. Hand Detector
-2. Red Neuronal
-3. Clasificador 
-4. Find Person
-
 ## Librerías <a name="id10"></a>
 
 - numpy
