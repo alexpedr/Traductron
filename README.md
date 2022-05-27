@@ -52,7 +52,7 @@ Este es un circuito orientativo con nuestros componentes.
 
 
 ## Arquitectura Sofware<a name="id10"></a>
-Así es como funciona nuesto robot traductron. Esta dividido en los siguientes módulos:
+Así es como funciona nuesto robot traductron. Está dividido en los siguientes módulos:
 
 <a href="url"><img src="https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png" height="132" width="727" ></a>
 
@@ -103,7 +103,7 @@ En el caso de ejecutarlo en ordenador:
     > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector.
   - 3.4. Ejecutamos el archivo  "altavoz.py"
   - 3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
-    > Utilizamos el de nuevo el handDetector para en el momento detectar los puntos y comparmos con los valores que tenemos en el dataSet y reproducimos por audio.
+    > Utilizamos de nuevo el handDetector para el momento de detectar los puntos y comparamos con los valores que tenemos en el dataSet y reproducimos por audio.
   
 Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
 
