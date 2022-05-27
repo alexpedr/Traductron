@@ -1,5 +1,7 @@
 # Traductron
 
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170719939-f24a5a6c-30c8-458a-a3c1-5ee5665f3a2b.jpeg" align="right" height="284" width="220" ></a>
+
 **Tabla de contenidos**
 - [¿Qué es esto?](#id0)
 - [Objetivo](#id8)
@@ -16,7 +18,6 @@
 ## ¿Qué es esto? <a name="id0"></a>
 Traductron es un robot móvil que dispone de un brazo con cámara. Este gira sobre si mismo hasta localizar a una persona, cuando lo hace, procede a hacer la traducción del Lenguaje de Signos Español y emitirlo en audio. 
 
-![WhatsApp Image 2022-05-27 at 11 14 11 AM](https://user-images.githubusercontent.com/57665176/170719939-f24a5a6c-30c8-458a-a3c1-5ee5665f3a2b.jpeg)
 
 
 ## Objetivo <a name="id8"></a>
@@ -47,12 +48,14 @@ Cabe destacar que, como usamos Mediapipe, la raspberry pi zero no es aconsejable
 ## Circuito Hardware <a name="id9"></a>
 Este es un circuito orientativo con nuestros componentes.
 
-![HW traductron](https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG)
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG" height="358" width="471" ></a>
+
 
 ## Arquitectura Sofware<a name="id10"></a>
 Así es como funciona nuesto robot traductron. Esta dividido en los siguientes módulos:
 
-![image](https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png)
+<a href="url"><img src="https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png" height="132" width="727" ></a>
+
 
 ## Librerías usadas<a name="id10"></a>
 - numpy
@@ -70,7 +73,8 @@ Así es como funciona nuesto robot traductron. Esta dividido en los siguientes m
 ## Documentación <a name="id2"></a>
 Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje de Signos Español.
 
-![LENGUAJE SIGNOS](https://user-images.githubusercontent.com/57665176/170559218-840539d5-3058-4434-80e0-c771af3a1851.jpg)
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170559218-840539d5-3058-4434-80e0-c771af3a1851.jpg" height="268" width="524" ></a>
+
 
 Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 
@@ -79,7 +83,9 @@ Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 3. Modificamos los signos de letras las letras que se confundian con otras.
 4. Así ha quedado el abecedario que traduce Traductron.
 
-![LENGUAJE SIGNOS FINAL](https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg)
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg" height="268" width="524" ></a>
+
+
 
 ## Modo de empleo <a name="id3"></a>
 
