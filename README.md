@@ -8,6 +8,7 @@
 - [Componentes](#id1)
 - [Circuito Hardware](#id9)
 - [Arquitectura Sofware](#id10)
+- [Requisitos](#id11)
 - [Documentación](#id2)
 - [Modo de empleo](#id3)
 - [Autores](#id6)
@@ -56,18 +57,18 @@ Así es como funciona nuesto robot traductron. Esta dividido en los siguientes m
 <a href="url"><img src="https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png" height="132" width="727" ></a>
 
 
-## Librerías usadas<a name="id10"></a>
-- numpy
-- pandas
-- gTTs
-- playSound
-- cv2
-- mediapipe
-- pickle
-- sklearn
-- math
-- copy
-- time
+## Requisitos <a name="id11"></a>
+- [NumPy](https://numpy.org/)
+- [Pandas](https://aprendeconalf.es/docencia/python/manual/pandas/)
+- [gTTs](https://pypi.org/project/gTTS/)
+- [playSound](https://pypi.org/project/playsound/)
+- [cv2](https://pypi.org/project/cv2-tools/)
+- [MediaPipe](https://pypi.org/project/mediapipe/)
+- [Pickle](https://docs.python.org/es/3/library/pickle.html)
+- [sklearn](https://scikit-learn.org/stable/install.html)
+- [Math](https://docs.python.org/es/3.10/library/math.html)
+- [Copy](https://docs.python.org/es/3/library/copy.html)
+- [Time](https://docs.python.org/es/3/library/time.html)
 
 ## Documentación <a name="id2"></a>
 Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje de Signos Español.
