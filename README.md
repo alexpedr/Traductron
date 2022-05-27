@@ -106,4 +106,8 @@ como esta organozado el codigo
 - Pablo Ezequiel Britos
 
 ## Bibliografía <a name="id7"></a>
+This project has been inspired by the following Internet projects:
+
+- [https://www.xataka.com/aplicaciones/asi-showleap-traductor-lengua-signos-a-texto-voz-tiempo-real-esta-cada-vez-cerca ](https://www.xataka.com/aplicaciones/asi-showleap-traductor-lengua-signos-a-texto-voz-tiempo-real-esta-cada-vez-cerca )
+
 
