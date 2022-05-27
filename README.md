@@ -16,6 +16,9 @@
 ## ¿Qué es esto? <a name="id0"></a>
 Traductron es un robot móvil que dispone de un brazo con cámara. Este gira sobre si mismo hasta localizar a una persona, cuando lo hace, procede a hacer la traducción del Lenguaje de Signos Español y emitirlo en audio. 
 
+![WhatsApp Image 2022-05-27 at 11 14 11 AM](https://user-images.githubusercontent.com/57665176/170719939-f24a5a6c-30c8-458a-a3c1-5ee5665f3a2b.jpeg)
+
+
 ## Objetivo <a name="id8"></a>
 Nuestro objetivo es facilitar a las personas que se comunican mediante Lenguaje de Signos a mantener conversaciones con otras que no conozcan el lenguaje.
 
