@@ -38,7 +38,7 @@ Buscamos que este colectivo gane independencia y que no tenga que disponer de un
 ![image](https://user-images.githubusercontent.com/57665176/170557404-7f19dcb5-94d7-42ad-bd31-e38d4eb2d7c8.png)
 
 ## Arquitectura Sofware<a name="id10"></a>
-![image](https://user-images.githubusercontent.com/57665176/170557311-f8d75057-7719-473d-87a9-d9fa97cca5c1.png)
+![image](https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png)
 
 1. Hand Detector
 2. Red Neuronal
