@@ -23,25 +23,34 @@ Nuestro objetivo es facilitar a las personas que se comunican mediante Lenguaje 
 Buscamos que este colectivo gane independencia y que no tenga que disponer de un intérprete o de un familiar para poder hacer tareas cuotidianas como por ejemplo, ir a hacer una transacción a un banco. 
 
 ## Componentes <a name="id1"></a>
-- Kit de motores con ruedas
-- Controlador de motor de doble puente
-- Bola loca
-- Raspberry Pi Zero
-- Cámara Raspi
+El hardware que hemos usado para nuestro robot prototipo son los siguientes:
+
+- 2 Motores Micro Metal LP
+- 2 Ruedas base 
+- Controlador de motores L289n
+- Motor paso a paso 28BYJ-48
+- Raspberry pi zero
+- Cámara raspberry pi 
 - Altavoz
 - Amplificador
-- Pilas
 - Power Bank
-- Piezas 3D (añadir fotos)
+- Pilas 9V
+- Rueda loca metálica 
+- Piezas 3D
+
+No son los ideales, ya que tuvimos que escogerlos al principio del proyecto y no sabíamos bien bien cuáles iban mejor con nuestro software. También teníamos que adaptarnos a un presupuesto de 100 € proporcionado por la universidad.
+
+Cabe destacar que, como usamos Mediapipe, la raspberry pi zero no es aconsejable usarla, por el hecho de que no se puede instalar esta librería en ella.
 
 ## Circuito Hardware <a name="id9"></a>
-![image](https://user-images.githubusercontent.com/57665176/170557404-7f19dcb5-94d7-42ad-bd31-e38d4eb2d7c8.png)
+Este es un circuito orientativo con nuestros componentes.
+![HW traductron](https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG)
 
 ## Arquitectura Sofware<a name="id10"></a>
+Así es como funciona nuesto robot traductron. Esta dividido en los siguientes módulos:
 ![image](https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png)
 
-## Librerías <a name="id10"></a>
-
+## Librerías usadas<a name="id10"></a>
 - numpy
 - pandas
 - gTTs
@@ -57,13 +66,14 @@ Buscamos que este colectivo gane independencia y que no tenga que disponer de un
 ## Documentación <a name="id2"></a>
 Traductron, de momento, solo realiza la traducción del abecedario del Lenguaje de Signos Español.
 
+![LENGUAJE SIGNOS](https://user-images.githubusercontent.com/57665176/170559218-840539d5-3058-4434-80e0-c771af3a1851.jpg)
+
 Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 
-1. Letras sin movimiento
-2. Eliminar letras no necesárias
-3. Modificar singos de letras confusas
-4. Abecedario Final
-![LENGUAJE SIGNOS](https://user-images.githubusercontent.com/57665176/170559218-840539d5-3058-4434-80e0-c771af3a1851.jpg)
+1. Hacer las letras sin movimiento, ya que no pudimos procesarlo.
+2. Eliminamos las letras no necesárias, como: 'LL' y 'CH'.
+3. Modificamos los signos de letras las letras que se confundian con otras.
+4. Así ha quedado el abecedario que traduce Traductron.
 
 ![LENGUAJE SIGNOS FINAL](https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg)
 
