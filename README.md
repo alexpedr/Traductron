@@ -89,11 +89,15 @@ En el caso de ejecutarlo en ordenador:
 2. Instalar librerias necesarias
 3. Ejecutar los archivos en el siguiente orden:
 
-  - 3.1.  Ejecutamos archivo "pythonPrueba2.py"
+  - 3.1.  Ejecutamos archivo "pythonPrueba2.py
+    > Utilizamos este archivo par crear el DataSet, utilizando el findDetector.
   - 3.2. Ejecutamos el archivo "concatenarTablas.py"
+    > Creamos un únicho archivo con todos los valores de las letras que hemos generado anteriormente.
   - 3.3. Ejecutamos el archivo  "redNeuronal.py"
+    > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector.
   - 3.4. Ejecutamos el archivo  "altavoz.py"
   - 3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
+    > Utilizamos el de nuevo el handDetector para en el momento detectar los puntos y comparmos con los valores que tenemos en el dataSet y reproducimos por audio.
   
 Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
 
