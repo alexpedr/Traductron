@@ -96,9 +96,9 @@ En el caso de ejecutarlo en ordenador:
 3. Ejecutar los archivos en el siguiente orden:
 
   - 3.1.  Ejecutamos archivo "pythonPrueba2.py
-    > Utilizamos este archivo par crear el DataSet, utilizando el findDetector.
+    > Utilizamos este archivo para crear el DataSet, utilizando el findDetector.
   - 3.2. Ejecutamos el archivo "concatenarTablas.py"
-    > Creamos un únicho archivo con todos los valores de las letras que hemos generado anteriormente.
+    > Creamos un único archivo con todos los valores de las letras que hemos generado anteriormente.
   - 3.3. Ejecutamos el archivo  "redNeuronal.py"
     > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector.
   - 3.4. Ejecutamos el archivo  "altavoz.py"
