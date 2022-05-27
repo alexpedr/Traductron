@@ -10,7 +10,6 @@
 - [Arquitectura Sofware](#id10)
 - [Documentación](#id2)
 - [Modo de empleo](#id3)
-- [Planificación de rutas](#id4)
 - [Autores](#id6)
 - [Bibliografía](#id7)
 
@@ -106,9 +105,6 @@ En el caso de ejecutarlo en ordenador:
     > Utilizamos el de nuevo el handDetector para en el momento detectar los puntos y comparmos con los valores que tenemos en el dataSet y reproducimos por audio.
   
 Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
-
-## Planificación y seguimiento de rutas y carpetas <a name="id4"></a>
-como esta organozado el codigo
 
 
 ## Autores <a name="id6"></a>
