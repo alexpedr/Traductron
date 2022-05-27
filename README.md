@@ -9,7 +9,6 @@
 - [Documentación](#id2)
 - [Modo de empleo](#id3)
 - [Planificación de rutas](#id4)
-- [Seguimiento de rutas](#id5)
 - [Autores](#id6)
 - [Bibliografía](#id7)
 
@@ -77,29 +76,28 @@ Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 
 ![LENGUAJE SIGNOS FINAL](https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg)
 
-## Modo de empleo <a name="id3"></a
+## Modo de empleo <a name="id3"></a>
 En el caso de ejecutarlo en ordenador: 
 1. Clonar  repositorio
 2. Instalar librerias necesarias
 3. Ejecutar los archivos en el siguiente orden
-  3.1  Ejecutamos archivo "pythonPrueba2.py"
-  3.2 Ejecutamos el archivo "concatenarTablas.py"
-  3.3 Ejecutamos el archivo  "redNeuronal.py"
-  3.4 Ejecutamos el archivo  "altavoz.py"
-  3.5 Ejecutamos el archivo "intentoTraductorFinal.py"
+  3.1.  Ejecutamos archivo "pythonPrueba2.py"
+  3.2. Ejecutamos el archivo "concatenarTablas.py"
+  3.3. Ejecutamos el archivo  "redNeuronal.py"
+  3.4. Ejecutamos el archivo  "altavoz.py"
+  3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
 Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
 
-## Planificación de rutas <a name="id4"></a>
+## Planificación y seguimiento de rutas y carpetas <a name="id4"></a>
 como esta organozado el codigo
 
-## Seguimiento de rutas <a name="id5"></a>
 
 ## Autores <a name="id6"></a>
 
-Àlex Pedrola González
-Susana Sánchez Ropero
-Paula Martín Merino
-Pablo Ezequiel Britos
+- Àlex Pedrola González
+- Susana Sánchez Ropero
+- Paula Martín Merino
+- Pablo Ezequiel Britos
 
 ## Bibliografía <a name="id7"></a>
 
