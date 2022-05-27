@@ -43,10 +43,12 @@ Cabe destacar que, como usamos Mediapipe, la raspberry pi zero no es aconsejable
 
 ## Circuito Hardware <a name="id9"></a>
 Este es un circuito orientativo con nuestros componentes.
+
 ![HW traductron](https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG)
 
 ## Arquitectura Sofware<a name="id10"></a>
 Así es como funciona nuesto robot traductron. Esta dividido en los siguientes módulos:
+
 ![image](https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png)
 
 ## Librerías usadas<a name="id10"></a>
@@ -77,15 +79,19 @@ Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 ![LENGUAJE SIGNOS FINAL](https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg)
 
 ## Modo de empleo <a name="id3"></a>
+
 En el caso de ejecutarlo en ordenador: 
+
 1. Clonar  repositorio
 2. Instalar librerias necesarias
-3. Ejecutar los archivos en el siguiente orden
-  3.1.  Ejecutamos archivo "pythonPrueba2.py"
-  3.2. Ejecutamos el archivo "concatenarTablas.py"
-  3.3. Ejecutamos el archivo  "redNeuronal.py"
-  3.4. Ejecutamos el archivo  "altavoz.py"
-  3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
+3. Ejecutar los archivos en el siguiente orden:
+
+  - 3.1.  Ejecutamos archivo "pythonPrueba2.py"
+  - 3.2. Ejecutamos el archivo "concatenarTablas.py"
+  - 3.3. Ejecutamos el archivo  "redNeuronal.py"
+  - 3.4. Ejecutamos el archivo  "altavoz.py"
+  - 3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
+  
 Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
 
 ## Planificación y seguimiento de rutas y carpetas <a name="id4"></a>
