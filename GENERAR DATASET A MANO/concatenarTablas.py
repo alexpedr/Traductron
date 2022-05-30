@@ -8,7 +8,7 @@ import pandas as pd
 import numpy as np 
 
 #axis = 0
-final = pd.read_excel("./NUEVODATASET/A1.xlsx")
+final = pd.read_excel("../DATASET/A1.xlsx")
 
 for valorLetra in range(65,91):
     letra = chr(valorLetra)
@@ -19,9 +19,9 @@ for valorLetra in range(65,91):
         if (valorLetra == 65 and i == 1):
             x=0
         else:
-            v='./NUEVODATASET/' + letra1 + ".xlsx"
-            tabla = pd.read_excel('./NUEVODATASET/' + letra1 + ".xlsx")
+            v='../DATASET/' + letra1 + ".xlsx"
+            tabla = pd.read_excel('../DATASET/' + letra1 + ".xlsx")
             final = pd.concat([final, tabla], axis=0)
 
     
-final.to_excel("./NUEVODATASET/final.xlsx")
+final.to_excel("../DATASET/final.xlsx")
