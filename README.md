@@ -62,7 +62,7 @@ Así es como funciona nuesto robot traductron. Está dividido en los siguientes 
 <a href="url"><img src="https://user-images.githubusercontent.com/57665176/171006682-3404a4f9-b8d8-4c44-bbd7-9720db8c90f6.PNG" align="center" height="245" width="677" ></a>
 
 1. Camara
-Cada X tiempo la camara toma fotos y estas se pasan al módulo de detector de tronco superior.
+Cada 1,5 segundos aproximadamente la camara toma fotos y estas se pasan al módulo de detector de tronco superior.
 
 2. Detector tronco superior
 
