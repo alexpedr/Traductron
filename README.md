@@ -16,8 +16,11 @@
 
 
 ## ¿Qué es esto? <a name="id0"></a>
-Traductron es un robot móvil que dispone de un brazo con cámara. Este gira sobre si mismo hasta localizar a una persona, cuando lo hace, procede a hacer la traducción del Lenguaje de Signos Español y emitirlo en audio. 
+Traductron, como su propio nombre indica, traduce el Lenguaje de Signos Español a audio mediante una cámara.
 
+El robot tiene la cámara en un brazo móvil. Este brazo baja y sube en función de la posición que capta del tronco superior (utilizando MediaPipe). Traductron también gira a la derecha o a la izquierda sobre sí mismo, así nunca perderá a la persona.
+
+Si cuando el robot se enciende no encuentra a la persona, gira sobre sí mismo hasta encontrarla y realiza el procedimiento anterior para no perderla. Una vez encontrada, hace la traducción detectando la mano mediante MediPipe y la emite por el altavoz y repite el proceso en bucle.  
 
 
 ## Objetivo <a name="id8"></a>
@@ -57,6 +60,7 @@ Así es como funciona nuesto robot traductron. Está dividido en los siguientes 
 <a href="url"><img src="https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png" height="132" width="727" ></a>
 
 
+
 ## Requisitos <a name="id11"></a>
 - [NumPy](https://numpy.org/)
 - [Pandas](https://aprendeconalf.es/docencia/python/manual/pandas/)
@@ -84,7 +88,6 @@ Para poder hacer esto de manera correcta, tuvimos que hacer algunos cambios.
 4. Así ha quedado el abecedario que traduce Traductron.
 
 <a href="url"><img src="https://user-images.githubusercontent.com/57665176/170559192-c9fcc1f4-8eb7-46c4-975d-41c1d67e6dec.jpg" height="268" width="524" ></a>
-
 
 
 ## Modo de empleo <a name="id3"></a>
