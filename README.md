@@ -153,6 +153,8 @@ En el caso de ejecutarlo en ordenador:
     > Utilizamos de nuevo el handDetector para el momento de detectar los puntos y comparamos con los valores que tenemos en el dataSet y reproducimos por audio.
  
  Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
+ 
+ (Los puntos 3.1, 3.2 y 3.3 no son necesarios de ejecutar, ya que proporcionamos una red neuronal y un dataset).
 
   4. En el caso de no disponer de una raspberry pi 3 o 4, como en nuestro caso, puedes usar las carpetas CLIENTE y SERVIDOR. El cliente se guardará en la raspberry y el servidor en tu ordenador. 
  
