@@ -44,6 +44,8 @@ El hardware que hemos usado para nuestro robot prototipo son los siguientes:
 - Rueda loca metálica 
 - Piezas 3D
 
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171011130-dd06c393-af70-4386-a4d5-11338f93fd95.PNG" align="center" height="115" width="419" ></a>
+
 No son los ideales, ya que tuvimos que escogerlos al principio del proyecto y no sabíamos bien bien cuáles iban mejor con nuestro software. También teníamos que adaptarnos a un presupuesto de 100 € proporcionado por la universidad.
 
 Cabe destacar que, como usamos Mediapipe, la raspberry pi zero no es aconsejable usarla, por el hecho de que no se puede instalar esta librería en ella.
@@ -51,14 +53,56 @@ Cabe destacar que, como usamos Mediapipe, la raspberry pi zero no es aconsejable
 ## Circuito Hardware <a name="id9"></a>
 Este es un circuito orientativo con nuestros componentes.
 
-<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG" height="358" width="471" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/170707822-0ee75ba9-1f03-48e8-b06b-94847864b0e3.PNG" align="center" height="358" width="471" ></a>
 
 
 ## Arquitectura Sofware<a name="id10"></a>
 Así es como funciona nuesto robot traductron. Está dividido en los siguientes módulos:
 
-<a href="url"><img src="https://user-images.githubusercontent.com/104013393/170675185-498d200d-2c50-49bb-8465-f29e686f25ff.png" height="132" width="727" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171006682-3404a4f9-b8d8-4c44-bbd7-9720db8c90f6.PNG" align="center" height="245" width="677" ></a>
 
+1. Camara
+Cada X tiempo la camara toma fotos y estas se pasan al módulo de detector de tronco superior.
+
+2. Detector tronco superior
+
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171008763-ee81b8cc-e71a-47a1-8d8e-13ab42bcea85.png" align="right" height="291" width="407" ></a>
+
+Para realizar el movimiento de desplazamiento del robot y el de subir y bajar el brazo con la cámara, usamos también la librería MediaPipe, en este caso la opción de detectar solo el tronco superior.
+
+De esta manera, creamos un documento de texto en el cual escribiremos 8 movimientos:
+
+
+- Left - Up
+- Left- Down
+- Left
+- Up
+- Down
+- Right - Up
+- Right - Down
+- Right
+
+Este documento se pasa al módulo de movimiento.
+
+3. Movimiento
+
+A partir de los valores del documento, el robot se moverá de manera correspondiente. Una vez posicionado, se accede al módulo de detector de manos y traducción. Y se repite el procedimiento en bucle.
+
+4. Detector de manos
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171010112-c993ec96-3af0-47db-855d-b3464167c791.PNG" align="right" height="210" width="219" ></a>
+
+A partir de la librería “MediaPipe”, detectamos los puntos de control de la mano y concretamente las coordenadas X e Y de cada uno de los puntos. Con este detector creamos de 0 nuestro dataset para poder entrenar posteriormente la Red Neuronal. 
+
+
+
+5. Red Neuronal
+
+A través de la librería sklearn podemos entrenar una red neuronal con la función MLPclassifier() donde le pasamos el Dataset con todas las letras y sus respectivas etiquetas. 
+
+6. Salida de audio 
+
+A través de las librerías gtts y playsound podemos reproducir, mediante audio, las letras en signos que le vayamos enseñando a la cámara. 
+Creamos una función que, pasada la etiqueta de la letra, la pase al código ASCII y después la convierta a tipo char. Una vez hecho esto, le pasamos la letra a la función gTTS(), que grabará el audio en español. Guardamos el resultado en un archivo .mp3 y después con la función playsound() reproducimos el audio. 
 
 
 ## Requisitos <a name="id11"></a>
