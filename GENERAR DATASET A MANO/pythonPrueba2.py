@@ -91,10 +91,10 @@ def main():
     contador = 0
     listaDeListas = []
     
-    clasificador = pickle.load(open("redNeuronal.sav","rb"))
+    #clasificador = pickle.load(open("redNeuronal.sav","rb"))
     
     while True:
-        if len(listaDeListas) == 50:
+        if len(listaDeListas) == 300:
             generarArchivo(listaDeListas,"N",13)
             break
         success, img = cap.read()
