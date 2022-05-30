@@ -150,7 +150,7 @@ En el caso de ejecutarlo en ordenador:
   - 3.3. Ejecutamos el archivo  "redNeuronal.py"
     > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector y generar un archivo sav que será la red neuronal que se utilizará.
   - 3.4. Ejecutamos el archivo "intentoTraductorFinal.py"
-    > Utilizamos de nuevo el handDetector para el momento de detectar los puntos y comparamos con los valores que tenemos en el dataSet y reproducimos por audio.
+    > Utilizamos de nuevo el handDetector para el momento de detectar los puntos y pasamos los puntos a la red neuronal, que esta nos devuelve que letra es y reproducimos por audio.
  
  Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
  
