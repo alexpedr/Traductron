@@ -15,6 +15,7 @@
 - [Bibliografía](#id7)
 
 
+
 ## ¿Qué es esto? <a name="id0"></a>
 Traductron, como su propio nombre indica, traduce el Lenguaje de Signos Español a audio mediante una cámara.
 
@@ -147,12 +148,16 @@ En el caso de ejecutarlo en ordenador:
   - 3.2. Ejecutamos el archivo "concatenarTablas.py"
     > Creamos un único archivo con todos los valores de las letras que hemos generado anteriormente.
   - 3.3. Ejecutamos el archivo  "redNeuronal.py"
-    > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector.
-  - 3.4. Ejecutamos el archivo  "altavoz.py"
-  - 3.5. Ejecutamos el archivo "intentoTraductorFinal.py"
+    > Nos devuelve un valor de Accuracy para poder analizar la precisión de nuestro detector y generar un archivo sav que será la red neuronal que se utilizará.
+  - 3.4. Ejecutamos el archivo "intentoTraductorFinal.py"
     > Utilizamos de nuevo el handDetector para el momento de detectar los puntos y comparamos con los valores que tenemos en el dataSet y reproducimos por audio.
-  
-Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
+ 
+ Una vez ejecutados estos archivos con el último de ellos podemos empezar a traducir
+
+  4. En el caso de no disponer de una raspberry pi 3 o 4, como en nuestro caso, puedes usar las carpetas CLIENTE y SERVIDOR. El cliente se guardará en la raspberry y el servidor en tu ordenador. 
+ 
+El cliente coje una fotografía creada por la cámara, la guarda y la envía al ordenador mediante sockets. El ordenador usará MediaPipe sobre esa foto recibida, clasifica ese signo y envía el resultado al altavoz. Una vez hecho esto, detecta el tronco superior y dependiendo de la posición de la persona, enviará un documento de texto u otro al módulo de movimiento, que se encuentra en la raspberry.
+    
 
 
 ## Autores <a name="id6"></a>
