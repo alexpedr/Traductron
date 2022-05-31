@@ -45,7 +45,7 @@ El hardware que hemos usado para nuestro robot prototipo son los siguientes:
 - Rueda loca metálica 
 - Piezas 3D
 
-<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171011130-dd06c393-af70-4386-a4d5-11338f93fd95.PNG" align="center" height="115" width="419" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171011130-dd06c393-af70-4386-a4d5-11338f93fd95.PNG" align="center" height="150" width="419" ></a>
 
 No son los ideales, ya que tuvimos que escogerlos al principio del proyecto y no sabíamos bien bien cuáles iban mejor con nuestro software. También teníamos que adaptarnos a un presupuesto de 100 € proporcionado por la universidad.
 
@@ -90,7 +90,7 @@ Este documento se pasa al módulo de movimiento.
 A partir de los valores del documento, el robot se moverá de manera correspondiente. Una vez posicionado, se accede al módulo de detector de manos y traducción. Y se repite el procedimiento en bucle.
 
 4. Detector de manos
-<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171010112-c993ec96-3af0-47db-855d-b3464167c791.PNG" align="right" height="210" width="219" ></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/57665176/171010112-c993ec96-3af0-47db-855d-b3464167c791.PNG" align="right" height="210" width="229" ></a>
 
 A partir de la librería “MediaPipe”, detectamos los puntos de control de la mano y concretamente las coordenadas X e Y de cada uno de los puntos. Con este detector creamos de 0 nuestro dataset para poder entrenar posteriormente la Red Neuronal. 
 
